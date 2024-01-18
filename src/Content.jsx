@@ -9,7 +9,7 @@ export default function Content() {
       <Container id="main-container" align="center">
         <Row className="row-cols-1">
           <Col align="left">
-            <img src="/personal_pic.JPG" width="100" id="content-logo" />
+            <img src="personal_pic.JPG" width="100" id="content-logo" />
           </Col>
           <Col className="mt-4" align="left">
             <h4>Aaron Tam</h4>
