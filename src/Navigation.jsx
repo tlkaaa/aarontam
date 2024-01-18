@@ -9,7 +9,7 @@ export default function Navigation() {
       <Container id="nav-container">
         <Nav className="me-auto">
           <Navbar.Brand>
-            <img src="src/logo.JPG" width="30" />
+            <img src="./src/logo.JPG" width="30" />
           </Navbar.Brand>
           {/* <Nav.Link as="li" className="mx-3" href="#home">
             Home
