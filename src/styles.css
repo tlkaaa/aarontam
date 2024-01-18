@@ -1,0 +1,38 @@
+*{
+      background-color: rgb(30, 30, 30);
+      color: white;
+      margin: 0;
+      padding: 0;
+  }
+
+.navbar, .navbar .container {
+    background: none;
+    color: white;
+}
+
+#main-container {
+    margin-top: 80px;
+    /* justify-content: center; */
+    max-width: 480px;
+}
+
+#main-container .col{
+    /* background-color: aliceblue; */
+    
+}
+
+#nav-container {
+    margin-left: 1%;
+}
+
+img {
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+
+p {
+    color: rgb(170, 170, 170);
+    margin-top: 0%;
+}
+
