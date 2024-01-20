@@ -24,7 +24,7 @@
     border-radius: 50%;
     outline: none;
     border: none;
-    transition: 0.3s;
+    transition: 0.7s;
 }
 
 .logo img:hover{
@@ -33,7 +33,7 @@
 
 .logo .col, .logo .row{
     background: transparent !important;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .logo .col {
