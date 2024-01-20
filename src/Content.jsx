@@ -2,15 +2,49 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./styles.css";
+import { useEffect, useState } from "react";
 
 export default function Content() {
+  const [logoPosition, setLogoPosition] = useState("offset-0");
+  const [logoSize, setLogoSize] = useState(100);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY <= 70) {
+        setLogoPosition(`offset-0`);
+        setLogoSize(100);
+      }
+      if (window.scrollY > 70) {
+        setLogoPosition(`offset-11`);
+        setLogoSize(30);
+      }
+    };
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [logoPosition]);
+
   return (
     <>
+      <Container className="logo" id="logo-container">
+        <Row>
+          <Col className={logoPosition}>
+            <img
+              src="personal_pic.JPG"
+              width={logoSize}
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            />
+          </Col>
+        </Row>
+      </Container>
+
       <Container id="main-container" align="center">
         <Row className="row-cols-1">
-          <Col align="left">
-            <img src="personal_pic.JPG" width="100" id="content-logo" />
-          </Col>
           <Col className="mt-4" align="left">
             <h4>Aaron Tam</h4>
           </Col>
@@ -35,7 +69,50 @@ export default function Content() {
               databases, and software engineering. I've crafted web apps, delved
               into backend work, managed databases, and explored machine
               learning. Now, I'm eager to take on new challenges and keep
-              growing. Open to opportunities that push me further.
+              growing. Open to opportunities that push me further. /////////////
+              For the last 3 years, I've honed my skills in web development,
+              databases, and software engineering. I've crafted web apps, delved
+              into backend work, managed databases, and explored machine
+              learning. Now, I'm eager to take on new challenges and keep
+              growing. Open to opportunities that push me further. For the last
+              3 years, I've honed my skills in web development, databases, and
+              software engineering. I've crafted web apps, delved into backend
+              work, managed databases, and explored machine learning. Now, I'm
+              eager to take on new challenges and keep growing. Open to
+              opportunities that push me further. For the last 3 years, I've
+              honed my skills in web development, databases, and software
+              engineering. I've crafted web apps, delved into backend work,
+              managed databases, and explored machine learning. Now, I'm eager
+              to take on new challenges and keep growing. Open to opportunities
+              that push me further. For the last 3 years, I've honed my skills
+              in web development, databases, and software engineering. I've
+              crafted web apps, delved into backend work, managed databases, and
+              explored machine learning. Now, I'm eager to take on new
+              challenges and keep growing. Open to opportunities that push me
+              further. For the last 3 years, I've honed my skills in web
+              development, databases, and software engineering. I've crafted web
+              apps, delved into backend work, managed databases, and explored
+              machine learning. Now, I'm eager to take on new challenges and
+              keep growing. Open to opportunities that push me further. For the
+              last 3 years, I've honed my skills in web development, databases,
+              and software engineering. I've crafted web apps, delved into
+              backend work, managed databases, and explored machine learning.
+              Now, I'm eager to take on new challenges and keep growing. Open to
+              opportunities that push me further. For the last 3 years, I've
+              honed my skills in web development, databases, and software
+              engineering. I've crafted web apps, delved into backend work,
+              managed databases, and explored machine learning. Now, I'm eager
+              to take on new challenges and keep growing. Open to opportunities
+              that push me further. For the last 3 years, I've honed my skills
+              in web development, databases, and software engineering. I've
+              crafted web apps, delved into backend work, managed databases, and
+              explored machine learning. Now, I'm eager to take on new
+              challenges and keep growing. Open to opportunities that push me
+              further. For the last 3 years, I've honed my skills in web
+              development, databases, and software engineering. I've crafted web
+              apps, delved into backend work, managed databases, and explored
+              machine learning. Now, I'm eager to take on new challenges and
+              keep growing. Open to opportunities that push me further.
             </p>
           </Col>
         </Row>

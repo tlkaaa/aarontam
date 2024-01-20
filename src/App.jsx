@@ -5,7 +5,7 @@ import "./styles.css";
 function App() {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <Content />
     </>
   );

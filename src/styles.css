@@ -11,25 +11,49 @@
 }
 
 #main-container {
-    margin-top: 80px;
+   
     /* justify-content: center; */
     max-width: 480px;
-}
-
-#main-container .col{
-    /* background-color: aliceblue; */
-    
 }
 
 #nav-container {
     margin-left: 1%;
 }
 
-img {
+.logo img {
     border-radius: 50%;
     outline: none;
     border: none;
+    transition: 0.3s;
 }
+
+.logo img:hover{
+    cursor: pointer;
+}
+
+.logo .col, .logo .row{
+    background: transparent !important;
+    transition: 0.5s;
+}
+
+.logo .col {
+    margin-top: 1%;
+}
+
+#logo-container {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;
+    max-width: 480px;
+    margin-top: 40px;
+    background: none;
+
+}
+
+
 
 p {
     color: rgb(170, 170, 170);
