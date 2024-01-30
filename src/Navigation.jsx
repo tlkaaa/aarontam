@@ -11,18 +11,6 @@ export default function Navigation() {
           <Navbar.Brand>
             <img src="public/personal_pic.JPG" width="30" />
           </Navbar.Brand>
-          {/* <Nav.Link as="li" className="mx-3" href="#home">
-            Home
-          </Nav.Link>
-          <Nav.Link as="li" className="mx-3" href="#link">
-            About
-          </Nav.Link>
-          <Nav.Link as="li" className="mx-3" href="#home">
-            Project
-          </Nav.Link>
-          <Nav.Link as="li" className="mx-3" href="#link">
-            Contact
-          </Nav.Link> */}
         </Nav>
       </Container>
     </Navbar>
