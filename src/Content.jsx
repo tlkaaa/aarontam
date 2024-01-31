@@ -116,18 +116,18 @@ export default function Content() {
                     title="Bootstrap"
                   />
                 </div>
-                <ButtonGroup className="mx-4 my-3">
+                <ButtonGroup className="m-3">
                   <Button
                     href="https://tlkaaa.github.io/advice-slip/"
                     target="_blank"
-                    variant="outline-secondary"
+                    variant="link"
                   >
                     Visit Site↗
                   </Button>
                   <Button
                     href="https://github.com/tlkaaa/advice-slip"
                     target="_blank"
-                    variant="outline-secondary"
+                    variant="link"
                   >
                     GitHub Repository↗
                   </Button>
@@ -161,11 +161,11 @@ export default function Content() {
                     title="C#"
                   />
                 </div>
-                <ButtonGroup className="mx-4 my-3">
+                <ButtonGroup className="m-3">
                   <Button
                     href="https://tlkaaa.itch.io/project"
                     target="_blank"
-                    variant="outline-secondary"
+                    variant="link"
                   >
                     Visit Demo↗
                   </Button>
@@ -198,18 +198,18 @@ export default function Content() {
                     title="JavaScript"
                   />
                 </div>
-                <ButtonGroup className="mx-4 my-3">
+                <ButtonGroup className="m-3">
                   <Button
                     href="https://tlkaaa.github.io/Tech/"
                     target="_blank"
-                    variant="outline-secondary"
+                    variant="link"
                   >
                     Visit Site↗
                   </Button>
                   <Button
                     href="https://github.com/tlkaaa/tech"
                     target="_blank"
-                    variant="outline-secondary"
+                    variant="link"
                   >
                     GitHub Repository↗
                   </Button>
