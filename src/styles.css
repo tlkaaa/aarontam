@@ -10,24 +10,48 @@
     color: white;
 }
 
+
 #main-container {
-   
     max-width: 480px;
+}
+
+.name {
+    opacity: 0;
+    animation: fade 1.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+
+.main-content {
+    opacity: 0;
+    animation: fade 1.5s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.main-project {
+    opacity: 0;
+    animation: fade 1.5s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 #nav-container {
     margin-left: 1%;
 }
 
-.logo {
-
-}
 
 .logo img {
     border-radius: 50%;
     outline: none;
     border: none;
-    transition: 0.7s;
+    transition: 1s;
     position: relative;
 
 }
@@ -65,4 +89,8 @@ p {
 
 .card-title {
     color: rgb(170, 170, 170);
+}
+
+.icons {
+    margin-right: 2%;
 }
