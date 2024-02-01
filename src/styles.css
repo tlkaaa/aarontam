@@ -37,6 +37,13 @@
     animation-fill-mode: forwards;
 }
 
+.main-contact {
+    opacity: 0;
+    animation: fade 1.5s;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes fade {
     from {opacity: 0;}
     to {opacity: 1;}
@@ -95,3 +102,6 @@ p {
     margin-right: 2%;
 }
 
+.card {
+    border-width: 0;
+}
