@@ -3,7 +3,12 @@
     color: white;
     margin: 0;
     padding: 0;
-  }
+}
+
+  p {
+    color: rgb(170, 170, 170);
+    margin-top: 0%;
+}
 
 .navbar, .navbar .container {
     background: none;
@@ -89,10 +94,7 @@
     z-index: 2000;
 }
 
-p {
-    color: rgb(170, 170, 170);
-    margin-top: 0%;
-}
+
 
 .card-title {
     color: rgb(170, 170, 170);
@@ -100,8 +102,44 @@ p {
 
 .icons {
     margin-right: 2%;
+    transition: 0.1s ease-out;
+    position: relative;
+    z-index: 2;
 }
+
+.icons:hover {
+    opacity: 0;
+    scale: 0.9;
+}
+
 
 .card {
     border-width: 0;
+}
+
+.link {
+    text-decoration: none !important;
+    color: rgb(170, 170, 170) !important;
+    position: relative;
+}
+
+.link:hover{
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+
+.logo-text {
+    font-size:smaller;
+    white-space: pre-wrap;
+    position: absolute;
+    display: inline;
+    
+}
+
+.logo-text-xs {
+    font-size:x-small;
+    white-space: pre-wrap;
+    position: absolute;
+    display: inline;
 }

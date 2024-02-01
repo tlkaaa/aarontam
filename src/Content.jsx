@@ -102,18 +102,29 @@ export default function Content() {
                   keywords or ID.
                 </Card.Text>
                 <div className="px-4">
+                  <div className="logo-text mt-1">React</div>
                   <img
                     src="react.PNG"
                     className="icons"
                     width="35"
                     title="React"
                   />
+                  <div className="logo-text-xs ms-1" align="center">
+                    Type
+                    <br />
+                    Script
+                  </div>
                   <img
                     src="typescript.PNG"
                     className="icons"
                     width="35"
                     title="TypeScript"
                   />
+                  <div className="logo-text-xs ms-1" align="center">
+                    Boot
+                    <br />
+                    strap
+                  </div>
                   <img
                     src="bootstrap.PNG"
                     className="icons"
@@ -123,6 +134,7 @@ export default function Content() {
                 </div>
                 <ButtonGroup className="m-3">
                   <Button
+                    className="link"
                     href="https://tlkaaa.github.io/advice-slip/"
                     target="_blank"
                     variant="link"
@@ -130,13 +142,14 @@ export default function Content() {
                     Visit Site↗
                   </Button>
                   <Button
+                    className="link"
                     href="https://github.com/tlkaaa/advice-slip"
                     target="_blank"
                     variant="link"
                   >
                     GitHub Repository↗
                   </Button>
-                  {/* <Button variant="outline-secondary">Learn More</Button> */}
+                  {/* <Button className="link" variant="outline-secondary">Learn More</Button> */}
                 </ButtonGroup>
               </Card.Body>
             </Card>
@@ -156,12 +169,14 @@ export default function Content() {
                   event organizers.
                 </Card.Text>
                 <div className="px-4">
+                  <div className="logo-text mt-2 ms-1">Unity</div>
                   <img
                     src="unity.PNG"
                     className="icons"
                     width="35"
                     title="Unity"
                   />
+                  <div className="logo-text mt-2 ms-2">C#</div>
                   <img
                     src="c-sharp.PNG"
                     className="icons"
@@ -171,13 +186,14 @@ export default function Content() {
                 </div>
                 <ButtonGroup className="m-3">
                   <Button
+                    className="link"
                     href="https://tlkaaa.itch.io/project"
                     target="_blank"
                     variant="link"
                   >
                     Visit Demo↗
                   </Button>
-                  {/* <Button variant="outline-secondary">Learn More</Button> */}
+                  {/* <Button className="link" variant="outline-secondary">Learn More</Button> */}
                 </ButtonGroup>
               </Card.Body>
             </Card>
@@ -197,13 +213,20 @@ export default function Content() {
                   of product.
                 </Card.Text>
                 <div className="px-4">
+                  <div className="logo-text mt-1">HTML</div>
                   <img
                     src="html.PNG"
                     className="icons"
                     width="35"
                     title="HTML"
                   />
+                  <div className="logo-text mt-1 ms-1">CSS</div>
                   <img src="css.PNG" className="icons" width="35" title="CSS" />
+                  <div className="logo-text-xs ms-1" align="center">
+                    Java
+                    <br />
+                    Script
+                  </div>
                   <img
                     src="javascript.PNG"
                     className="icons"
@@ -213,6 +236,7 @@ export default function Content() {
                 </div>
                 <ButtonGroup className="m-3">
                   <Button
+                    className="link"
                     href="https://tlkaaa.github.io/Tech/"
                     target="_blank"
                     variant="link"
@@ -220,13 +244,14 @@ export default function Content() {
                     Visit Site↗
                   </Button>
                   <Button
+                    className="link"
                     href="https://github.com/tlkaaa/tech"
                     target="_blank"
                     variant="link"
                   >
                     GitHub Repository↗
                   </Button>
-                  {/* <Button variant="outline-secondary">Learn More</Button> */}
+                  {/* <Button className="link" variant="outline-secondary">Learn More</Button> */}
                 </ButtonGroup>
               </Card.Body>
             </Card>
@@ -238,21 +263,30 @@ export default function Content() {
           </Col>
           <Col>
             <p>
-              Email <img src="email.PNG" width={20} /> aarontam9529@gmail.com
+              Email <img src="email.PNG" width={20} alt="Email" />{" "}
+              aarontam9529@gmail.com
             </p>
           </Col>
           <Col>
             <p>
-              GitHub <img src="github.PNG" width={20} />{" "}
-              <a href="https://github.com/tlkaaa" target="_blank">
+              GitHub <img src="github.PNG" width={20} alt="GitHub" />{" "}
+              <a
+                className="link"
+                href="https://github.com/tlkaaa"
+                target="_blank"
+              >
                 github.com/tlkaaa ↗
               </a>
             </p>
           </Col>
           <Col>
             <p>
-              LinkedIn <img src="linkedin.PNG" width={20} />{" "}
-              <a href="https://www.linkedin.com/in/aarontamlk/" target="_blank">
+              LinkedIn <img src="linkedin.PNG" width={20} alt="LinkedIn" />{" "}
+              <a
+                className="link"
+                href="https://www.linkedin.com/in/aarontamlk/"
+                target="_blank"
+              >
                 www.linkedin.com/in/aarontamlk ↗
               </a>
             </p>
