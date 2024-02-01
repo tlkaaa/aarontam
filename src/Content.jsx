@@ -102,7 +102,7 @@ export default function Content() {
                   keywords or ID.
                 </Card.Text>
                 <div className="px-4">
-                  <div className="logo-text mt-1">React</div>
+                  <div className="logo-text mt-2">React</div>
                   <img
                     src="react.PNG"
                     className="icons"
@@ -213,14 +213,14 @@ export default function Content() {
                   of product.
                 </Card.Text>
                 <div className="px-4">
-                  <div className="logo-text mt-1">HTML</div>
+                  <div className="logo-text mt-2">HTML</div>
                   <img
                     src="html.PNG"
                     className="icons"
                     width="35"
                     title="HTML"
                   />
-                  <div className="logo-text mt-1 ms-1">CSS</div>
+                  <div className="logo-text mt-2 ms-1">CSS</div>
                   <img src="css.PNG" className="icons" width="35" title="CSS" />
                   <div className="logo-text-xs ms-1" align="center">
                     Java
