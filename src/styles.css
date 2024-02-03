@@ -5,9 +5,24 @@
     padding: 0;
 }
 
-  p {
+p {
     color: rgb(170, 170, 170);
     margin-top: 0%;
+}
+
+em {
+    color: rgb(170, 170, 170);
+    margin-top: 0%;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .navbar, .navbar .container {
@@ -16,7 +31,7 @@
 }
 
 
-#main-container {
+#main-container, #learnmore-container {
     max-width: 480px;
 }
 
@@ -117,13 +132,13 @@
     border-width: 0;
 }
 
-.link {
+.link-button {
     text-decoration: none !important;
     color: rgb(170, 170, 170) !important;
     position: relative;
 }
 
-.link:hover{
+.link-button:hover{
     text-decoration: underline !important;
     color: white !important;
 }
@@ -134,7 +149,6 @@
     white-space: pre-wrap;
     position: absolute;
     display: inline;
-    
 }
 
 .logo-text-xs {
@@ -143,3 +157,28 @@
     position: absolute;
     display: inline;
 }
+
+.back-button {
+    text-decoration: none !important;
+    color: white !important;
+    position: relative;
+    transition: 0.3s !important;
+}
+
+.back-button:hover{
+    text-decoration: underline !important;
+    scale: 1.3;
+    translate: -10px;
+}
+
+.carousel {
+    width: 450px;
+}
+
+.caro-image {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+}
+
+.test { background-color: red;}
