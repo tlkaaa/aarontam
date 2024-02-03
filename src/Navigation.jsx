@@ -8,6 +8,7 @@ export default function Navigation() {
   const [logoPosition, setLogoPosition] = useState("offset-0");
   const [logoSize, setLogoSize] = useState(100);
 
+  // When scrolled, logo scale reduced and moved to the right
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY <= 70) {
@@ -26,6 +27,7 @@ export default function Navigation() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [logoPosition]);
+
   return (
     <Container className="logo" id="logo-container">
       <Row>
