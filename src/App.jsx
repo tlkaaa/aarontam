@@ -85,7 +85,7 @@ export default function App() {
                     width="35"
                     title="TypeScript"
                   />
-                  <div className="logo-text-xs ms-1" align="center">
+                  <div className="logo-text-xs ms-2" align="center">
                     Boot
                     <br />
                     strap
@@ -236,6 +236,69 @@ export default function App() {
                     </Link>
                   </Button>
                 </ButtonGroup>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card
+              bg="dark"
+              text="white"
+              align="left"
+              className="mt-3 z-0 border-0 mb-4"
+            >
+              <Card.Body>
+                <p className="ms-4">
+                  <em>Ongoing Project:</em> Simple Log-In Page
+                </p>
+                <Card.Text className="pt-2 px-4">
+                  A simple login page allowing users to create and login their
+                  accounts using Docker technology.
+                </Card.Text>
+                <div className="px-4">
+                  <div className="logo-text mt-2">React</div>
+                  <img
+                    src="react.PNG"
+                    className="icons"
+                    width="35"
+                    title="React"
+                  />
+                  <div className="logo-text-xs ms-1" align="center">
+                    Type
+                    <br />
+                    Script
+                  </div>
+                  <img
+                    src="typescript.PNG"
+                    className="icons"
+                    width="35"
+                    title="TypeScript"
+                  />
+                  <div className="logo-text-xs ms-2" align="center">
+                    Boot
+                    <br />
+                    strap
+                  </div>
+                  <img
+                    src="bootstrap.PNG"
+                    className="icons"
+                    width="43"
+                    title="Bootstrap"
+                  />
+                  <div className="logo-text-xs mt-2">Docker</div>
+                  <img
+                    src="docker.PNG"
+                    className="icons"
+                    width="40"
+                    title="Docker"
+                  />
+                  <div className="logo-text-xs mt-2">MySQL</div>
+                  <img
+                    src="mysql.PNG"
+                    className="icons"
+                    width="40"
+                    title="MySQL"
+                  />
+                </div>
               </Card.Body>
             </Card>
           </Col>
