@@ -284,14 +284,14 @@ export default function App() {
                     width="43"
                     title="Bootstrap"
                   />
-                  <div className="logo-text-xs mt-2">Docker</div>
+                  <div className="logo-text-xs mt-2 ms-1">Docker</div>
                   <img
                     src="docker.PNG"
                     className="icons"
                     width="40"
                     title="Docker"
                   />
-                  <div className="logo-text-xs mt-2">MySQL</div>
+                  <div className="logo-text-xs mt-2 ms-1">MySQL</div>
                   <img
                     src="mysql.PNG"
                     className="icons"
