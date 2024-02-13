@@ -248,7 +248,7 @@ export default function App() {
             >
               <Card.Body>
                 <p className="ms-4">
-                  <em>Ongoing Project:</em> Simple Log-In Page
+                  <em>Ongoing Project (2024 Feb):</em> Simple Log-In Page
                 </p>
                 <Card.Text className="pt-2 px-4">
                   A simple login page built with Docker technology, allowing
