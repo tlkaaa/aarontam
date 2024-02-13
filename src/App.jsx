@@ -251,8 +251,8 @@ export default function App() {
                   <em>Ongoing Project:</em> Simple Log-In Page
                 </p>
                 <Card.Text className="pt-2 px-4">
-                  A simple login page allowing users to create and login their
-                  accounts using Docker technology.
+                  A simple login page built with Docker technology, allowing
+                  users to create and login their accounts.
                 </Card.Text>
                 <div className="px-4">
                   <div className="logo-text mt-2">React</div>
