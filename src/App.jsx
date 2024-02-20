@@ -247,6 +247,49 @@ export default function App() {
               className="mt-3 z-0 border-0 mb-4"
             >
               <Card.Body>
+                <p className="ms-4">Online Learning Forum</p>
+                <Card.Text className="pt-2 px-4">
+                  An online learning management system which provides a space
+                  for student and staffs to make discussions and asking
+                  questions in a forum type format.
+                </Card.Text>
+                <div className="px-4">
+                  <div className="logo-text mt-3 ms-2">PHP</div>
+                  <img src="php.PNG" className="icons" width="45" title="PHP" />
+                  <div className="logo-text-xs ms-2" align="center">
+                    Code
+                    <br />
+                    Igniter
+                    <br />4
+                  </div>
+                  <img
+                    src="codeigniter.PNG"
+                    className="icons"
+                    width="40"
+                    title="CodeIgniter 4"
+                  />
+                </div>
+                <ButtonGroup className="m-3">
+                  <Button
+                    className="link-button"
+                    href="https://github.com/tlkaaa/online-learning-forum"
+                    target="_blank"
+                    variant="link"
+                  >
+                    GitHub Repository↗
+                  </Button>
+                </ButtonGroup>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card
+              bg="dark"
+              text="white"
+              align="left"
+              className="mt-3 z-0 border-0 mb-4"
+            >
+              <Card.Body>
                 <p className="ms-4">
                   <em>Ongoing Project (2024 Feb):</em> Simple Log-In Page
                 </p>
