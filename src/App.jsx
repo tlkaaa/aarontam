@@ -48,6 +48,81 @@ export default function App() {
           </Col>
         </Row>
         <Row className="row-cols-1 main-project">
+          <Col>
+            <Card
+              bg="dark"
+              text="white"
+              align="left"
+              className="mt-3 z-0 border-0 mb-4"
+            >
+              <Card.Body>
+                <p className="ms-4">
+                  <em>Ongoing Project:</em> Black-Jack (Phase 1)
+                </p>
+                <Card.Img className="px-4" variant="top" src="blackjack.PNG" />
+                <Card.Text className="pt-2 px-4">
+                  A classic round-based Black Jack game with up to 5 players.
+                </Card.Text>
+                <div className="px-4">
+                  <div className="logo-text mt-2">React</div>
+                  <img
+                    src="react.PNG"
+                    className="icons"
+                    width="35"
+                    title="React"
+                  />
+                  <div className="logo-text-xs ms-1" align="center">
+                    Type
+                    <br />
+                    Script
+                  </div>
+                  <img
+                    src="typescript.PNG"
+                    className="icons"
+                    width="35"
+                    title="TypeScript"
+                  />
+                  <div className="logo-text-xs ms-2" align="center">
+                    Tail
+                    <br />
+                    wind
+                  </div>
+                  <img
+                    src="tailwind.PNG"
+                    className="icons"
+                    width="43"
+                    title="Tailwind"
+                  />
+                </div>
+                <ButtonGroup className="m-3">
+                  <Button
+                    className="link-button"
+                    href="https://tlkaaa.github.io/blackjack/"
+                    target="_blank"
+                    variant="link"
+                  >
+                    Visit Site↗
+                  </Button>
+                  <Button
+                    className="link-button"
+                    href="https://github.com/tlkaaa/blackjack"
+                    target="_blank"
+                    variant="link"
+                  >
+                    GitHub Repository↗
+                  </Button>
+                  {/* <Button className="link-button" variant="link">
+                    <Link
+                      className="link-button"
+                      to="/aarontam/learnmore/adviceslip"
+                    >
+                      Learn More
+                    </Link>
+                  </Button> */}
+                </ButtonGroup>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col className="card-col">
             <Card
               bg="dark"
@@ -279,69 +354,6 @@ export default function App() {
                     GitHub Repository↗
                   </Button>
                 </ButtonGroup>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card
-              bg="dark"
-              text="white"
-              align="left"
-              className="mt-3 z-0 border-0 mb-4"
-            >
-              <Card.Body>
-                <p className="ms-4">
-                  <em>Ongoing Project (2024 Feb):</em> Simple Log-In Page
-                </p>
-                <Card.Text className="pt-2 px-4">
-                  A simple login page built with Docker technology, allowing
-                  users to create and login their accounts.
-                </Card.Text>
-                <div className="px-4">
-                  <div className="logo-text mt-2">React</div>
-                  <img
-                    src="react.PNG"
-                    className="icons"
-                    width="35"
-                    title="React"
-                  />
-                  <div className="logo-text-xs ms-1" align="center">
-                    Type
-                    <br />
-                    Script
-                  </div>
-                  <img
-                    src="typescript.PNG"
-                    className="icons"
-                    width="35"
-                    title="TypeScript"
-                  />
-                  <div className="logo-text-xs ms-2" align="center">
-                    Boot
-                    <br />
-                    strap
-                  </div>
-                  <img
-                    src="bootstrap.PNG"
-                    className="icons"
-                    width="43"
-                    title="Bootstrap"
-                  />
-                  <div className="logo-text-xs mt-2 ms-1">Docker</div>
-                  <img
-                    src="docker.PNG"
-                    className="icons"
-                    width="40"
-                    title="Docker"
-                  />
-                  <div className="logo-text-xs mt-2 ms-1">MySQL</div>
-                  <img
-                    src="mysql.PNG"
-                    className="icons"
-                    width="40"
-                    title="MySQL"
-                  />
-                </div>
               </Card.Body>
             </Card>
           </Col>
