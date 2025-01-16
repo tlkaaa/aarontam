@@ -1,0 +1,84 @@
+.project-list {
+    @apply flex flex-col;
+}
+
+.projects {
+    @apply mt-10  lg:min-h-[370px] grid grid-rows-7 lg:grid-rows-1 grid-cols-10 relative bg-[#22222e]/90;
+
+    .details {
+        @apply col-span-8 lg:col-span-5 col-start-2 lg:col-start-1 row-start-2 lg:row-start-1 row-span-5 lg:row-span-1 my-auto;
+    }
+
+    .bg-image {
+        @apply w-full h-full object-cover col-span-6 col-start-1 lg:col-start-5 row-start-1 row-span-7 col-end-11 rounded-lg -z-10 lg:z-0;
+        @apply bg-cover bg-center bg-no-repeat;
+        transition: all 0.1s;
+    }
+}
+
+h5 {
+    @apply relative w-fit;
+    transition: all 0.2s;
+}
+
+h5::after {
+    content: "";
+    @apply w-0 h-[2px] absolute bottom-0 left-0;
+    transition: all 0.15s ease-in;
+}
+
+.my-projects {
+    img {
+        @apply w-full h-full rounded-lg;
+        transition: all 0.1s;
+    }
+
+    .details {
+        @apply flex flex-col gap-6;
+    }
+
+    p {
+        transition: all 0.15s linear;
+    }
+}
+
+.techs {
+    @apply text-base lg:text-sm whitespace-pre-line;
+    word-spacing: 10px;
+}
+
+.projects:hover {
+    .bg-image {
+        @apply lg:scale-110;
+    }
+
+    h5 {
+        @apply text-pink-400;
+    }
+
+    .card p {
+        @apply lg:font-semibold text-gray-300;
+    }
+
+    h5::after {
+        @apply bg-pink-400 sm:w-full;
+    }
+}
+
+.my-projects:hover {
+    img {
+        @apply md:scale-110;
+    }
+
+    h5 {
+        @apply text-pink-400;
+    }
+
+    p:first-of-type {
+        @apply md:font-semibold text-gray-300;
+    }
+
+    h5::after {
+        @apply bg-pink-400 w-full;
+    }
+}

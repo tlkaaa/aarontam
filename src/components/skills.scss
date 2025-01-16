@@ -1,0 +1,34 @@
+.skills-list {
+    @apply grid mx-auto justify-items-center gap-y-10 gap-x-5 lg:gap-x-0 mt-8;
+    @apply grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6;
+
+    div {
+        transition: all 0.3s ease-in-out;
+    }
+
+    div img {
+        @apply relative z-10 mx-auto;
+    }
+
+    div p {
+        @apply opacity-0 text-center z-0;
+    }
+
+    p {
+        transform: translatey(-30px);
+        transition: all 0.3s ease-in-out;
+    }
+
+    div:hover {
+        transform: translatey(-20px);
+
+        p {
+            @apply opacity-100;
+            transform: translatey(10px);
+        }
+    }
+
+    img {
+        @apply max-w-24 max-h-24;
+    }
+}

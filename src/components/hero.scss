@@ -1,0 +1,91 @@
+#hero {
+    @apply fixed flex flex-col h-screen justify-center bg-[--background] cursor-default z-0;
+}
+
+.title {
+    @apply w-fit;
+    font-size: clamp(3rem, 5.5vw, 6rem);
+    transition: all 0.5s ease-in-out;
+    animation: display 1s 0.3s both;
+}
+
+.name {
+    font-size: clamp(2.8rem, 7vw, 7rem);
+    @apply relative font-semibold  whitespace-nowrap;
+}
+
+.name::after {
+    content: "";
+    @apply absolute bottom-1 left-0 bg-pink-400 w-full h-1 sm:h-2;
+    animation: name-underline 0.5s 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.name:hover::after {
+    @apply w-[42%] bg-slate-500;
+}
+
+.title-body {
+    @apply w-fit;
+    transition: all 0.5s ease-in-out;
+    font-size: clamp(2rem, 5vw, 4rem);
+    animation: display 1s 0.5s both;
+    perspective: 10px;
+}
+
+.title-body em {
+    @apply relative sm:whitespace-nowrap;
+}
+
+.title-body em::after {
+    content: "";
+    @apply absolute bottom-0 left-0 bg-yellow-200 w-full h-1 hidden sm:block;
+    animation: name-underline 0.5s 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.title-body em:hover::after {
+    @apply w-[27%] bg-slate-500;
+}
+
+.down-arrow {
+    width: 3rem;
+    @apply mx-auto opacity-0;
+    transition: all 0.3s;
+    animation: display 1s 1.5s forwards, bounce 1s 2s both infinite;
+}
+
+@keyframes display {
+    from {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes name-underline {
+    from {
+        @apply w-0 bg-slate-500;
+    }
+    to {
+        @apply w-full;
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+.animate-bounce {
+    animation: bounce 1s infinite;
+}

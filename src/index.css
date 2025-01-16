@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #22222e;
+    --nav-background: #22222edc;
+    --dark-purple: #393a5a;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: var(--background);
+
+    /* #22222E #393A5A #706F8E #ADA9BA #E9E9E9 */
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply px-5 sm:px-10 md:px-20 lg:px-24 xl:px-40;
+}
+
+h1 {
+    @apply text-7xl;
+}
+
+h2 {
+    @apply text-6xl;
+}
+
+h3 {
+    @apply text-5xl;
+}
+
+h4 {
+    @apply text-4xl cursor-default;
+}
+
+h5 {
+    @apply text-xl font-semibold ;
+}
+
+
+article {
+    @apply max-w-6xl mx-auto mb-40;
+}
+
+.section-title {
+    @apply relative w-fit my-12;
+}
+
+.section-title::after {
+    content: "";
+    @apply absolute -bottom-2 left-0 bg-pink-400 w-full h-[3px];
+    animation: subtitle-underline 0.5s ease-in-out;
+    transition: all 0.5s  ease-in-out;
+}
+
+.section-title:hover::after {
+    content: "";
+    @apply w-[30%] bg-slate-500;
+}
+
+p {
+    @apply text-white/60 leading-7 tracking-wide;
+}
+
+* {
+    margin: 0;
+}
+
+@keyframes subtitle-underline {
+    from {
+        @apply w-0 bg-slate-500;
+    }
+    to {
+        @apply w-full;
+    }
+}

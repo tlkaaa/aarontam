@@ -1,0 +1,85 @@
+// @property --deg {
+//     syntax: "<angle>";
+//     initial-value: 90deg;
+//     inherits: false;
+// }
+
+// @property --deg-rev {
+//     syntax: "<angle>";
+//     initial-value: -90deg;
+//     inherits: false;
+// }
+
+// card
+.card {
+    @apply w-full bg-[#363649ef] relative rounded-md my-2 overflow-clip p-4 z-10;
+    // transition: all 0.5s;
+}
+
+.card p {
+    transition: all 0.15s linear;
+}
+
+// .card:hover {
+//     @apply bg-[#363649ef];
+// }
+
+//card border left
+// .card::before {
+//     content: "";
+//     @apply absolute rounded-l-lg z-[-1];
+//     inset: -0.1rem 50% -0.1rem -0.1rem;
+//     background-image: conic-gradient(from var(--deg), #706f8e, #ada9ba);
+// }
+
+// .card:hover::before {
+//     animation: border-animation-left 0.3s ease-in;
+// }
+
+// .card:hover .card__blur--left {
+//     @apply absolute rounded-l-lg z-[-1] blur-lg;
+//     inset: -0.1rem 50% -0.1rem -0.1rem;
+//     background-image: conic-gradient(from var(--deg), #706f8e, #ada9ba);
+//     animation: border-animation-left 0.3s ease-in;
+// }
+
+//card border right
+
+// .card::after {
+//     content: "";
+//     @apply absolute rounded-r-lg z-[-1];
+//     inset: -0.1rem -0.1rem -0.1rem 50%;
+//     background-image: conic-gradient(from var(--deg-rev), #ada9ba, #706f8e);
+// }
+
+// .card:hover::after {
+//     animation: border-animation-right 0.3s ease-in;
+// }
+
+// .card:hover .card__blur--right {
+//     @apply absolute rounded-r-lg z-[-1] blur-lg;
+//     inset: -0.1rem -0.1rem -0.1rem 50%;
+//     background-image: conic-gradient(from var(--deg-rev), #ada9ba, #706f8e);
+//     animation: border-animation-right 0.3s ease-in;
+// }
+
+// // left
+// @keyframes border-animation-left {
+//     0% {
+//         --deg: 90deg;
+//     }
+
+//     100% {
+//         --deg: 450deg;
+//     }
+// }
+
+// //right
+// @keyframes border-animation-right {
+//     from {
+//         --deg-rev: 270deg;
+//     }
+//     to {
+//         --deg-rev: -90deg;
+//     }
+// }

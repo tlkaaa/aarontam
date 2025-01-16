@@ -1,0 +1,32 @@
+.contact {
+    @apply bg-pink-400 rounded-lg pt-5 pb-8 px-3;
+
+    .contact-title,
+    p {
+        @apply text-center text-[#22222e];
+    }
+
+    .contact-title {
+        @apply my-6;
+    }
+
+    .contact-details {
+        @apply flex w-fit flex-col mx-auto justify-center text-left gap-3 mt-5;
+
+        div {
+            @apply flex flex-col sm:flex-row  gap-2;
+
+            img {
+                @apply mx-auto sm:mx-0;
+            }
+        }
+
+        span {
+            @apply font-bold;
+        }
+
+        a:hover {
+            @apply underline;
+        }
+    }
+}
