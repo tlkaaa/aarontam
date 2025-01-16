@@ -4,7 +4,7 @@ export default function Nav() {
     return (
         <nav id="nav">
             <img
-                src="src/assets/personal_pic.png"
+                src="personal_pic.png"
                 className="size-12 rounded-full cursor-pointer border border-pink-400 hover:border-yellow-200"
                 alt="logo"
                 onClick={() => {
@@ -16,13 +16,13 @@ export default function Nav() {
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="">Projects</a>
+                    <a href="#project">Projects</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>

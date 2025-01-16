@@ -4,7 +4,9 @@ import Card from "./Card";
 export default function Project() {
     return (
         <article>
-            <h4 className="section-title">My Project</h4>
+            <h4 className="section-title" id="project">
+                My Project
+            </h4>
             <p className="text-lg">
                 <span className="highlight">Websites</span> I contributed in
                 development at{" "}
@@ -45,9 +47,8 @@ export default function Project() {
                     </div>
                     <div
                         className="bg-image"
-                        style={{ backgroundImage: "url('src/assets/atg.png')" }}
+                        style={{ backgroundImage: "url('atg.png')" }}
                     ></div>
-                    {/* <img src="src\assets\atg.png" alt="Australia The Gift" /> */}
                 </div>
                 {/* Dreamfarm */}
                 <div className="projects">
@@ -73,7 +74,7 @@ export default function Project() {
                     </div>
                     <div
                         className="bg-image"
-                        style={{ backgroundImage: "url('src/assets/dfa.png')" }}
+                        style={{ backgroundImage: "url('dfa.png')" }}
                     ></div>
                 </div>
                 {/* uPaid */}
@@ -101,7 +102,7 @@ export default function Project() {
                     <div
                         className="bg-image"
                         style={{
-                            backgroundImage: "url('src/assets/uPaid.png')",
+                            backgroundImage: "url('uPaid.png')",
                         }}
                     ></div>
                 </div>
@@ -123,7 +124,7 @@ export default function Project() {
                     </div>
                     <div
                         className="bg-image"
-                        style={{ backgroundImage: "url('src/assets/mlg.png')" }}
+                        style={{ backgroundImage: "url('mlg.png')" }}
                     ></div>
                 </div>
                 {/* Lone Pine */}
@@ -154,7 +155,7 @@ export default function Project() {
                     <div
                         className="bg-image"
                         style={{
-                            backgroundImage: "url('src/assets/lone-pine.png')",
+                            backgroundImage: "url('lone-pine.png')",
                         }}
                     ></div>
                 </div>
@@ -184,7 +185,7 @@ export default function Project() {
                     <div
                         className="bg-image"
                         style={{
-                            backgroundImage: "url('src/assets/your-space.png')",
+                            backgroundImage: "url('your-space.png')",
                         }}
                     ></div>
                 </div>
@@ -199,10 +200,7 @@ export default function Project() {
                 <div className="my-projects">
                     <div className="details">
                         <h5>Advice Slip</h5>
-                        <img
-                            src="src\assets\advice_slip.PNG"
-                            alt="Advice Slip"
-                        />
+                        <img src="advice_slip.PNG" alt="Advice Slip" />
                         <p>
                             Generate random advice slips or search advice slips
                             with keywords or ID.
@@ -230,7 +228,7 @@ export default function Project() {
                     <div className="details">
                         <h5>Fire Evacuation Simulation</h5>
                         <img
-                            src="src\assets\fire_evac.PNG"
+                            src="fire_evac.PNG"
                             alt="Fire Evacuation Simulation"
                         />
                         <p>
@@ -252,7 +250,7 @@ export default function Project() {
                 <div className="my-projects">
                     <div className="details">
                         <h5>Tech</h5>
-                        <img src="src\assets\tech.PNG" alt="Tech" />
+                        <img src="tech.PNG" alt="Tech" />
                         <p>
                             A made-up Technology Company's website showcasing
                             their range of product.
@@ -282,7 +280,7 @@ export default function Project() {
                     <div className="details">
                         <h5>Black-Jack (Phase 1)</h5>
                         <img
-                            src="src\assets\blackjack.PNG
+                            src="blackjack.PNG
 "
                             alt="Black-Jack (Phase 1)"
                         />
