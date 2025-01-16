@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import "./App.scss";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
@@ -16,15 +16,15 @@ function App() {
         var currentScrollPos = window.pageYOffset;
 
         if (window.pageYOffset > 50) {
-            document.getElementById("nav").classList.add("drop-shadow-lg");
+            document.getElementById("nav")?.classList.add("drop-shadow-lg");
         } else {
-            document.getElementById("nav").classList.remove("drop-shadow-lg");
+            document.getElementById("nav")?.classList.remove("drop-shadow-lg");
         }
 
         if (prevScrollpos < currentScrollPos) {
-            document.getElementById("nav").style.opacity = "0";
+            document.getElementById("nav")!.style.opacity = "0";
         } else {
-            document.getElementById("nav").style.opacity = "1";
+            document.getElementById("nav")!.style.opacity = "1";
         }
         prevScrollpos = currentScrollPos;
 
@@ -36,10 +36,10 @@ function App() {
         opacity = Math.round(opacity * 100) / 100;
         if (opacity >= 0) {
             setHeroOpacity(opacity);
-            document.getElementById("hero").style.display = "flex";
+            document.getElementById("hero")!.style.display = "flex";
         } else {
             setHeroOpacity(0);
-            document.getElementById("hero").style.display = "none";
+            document.getElementById("hero")!.style.display = "none";
         }
     };
 

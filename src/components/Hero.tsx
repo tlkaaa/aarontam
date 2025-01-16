@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from "react";
 import "./hero.scss";
 
 export default function Hero({ opacity }: { opacity: number }) {

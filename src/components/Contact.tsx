@@ -1,5 +1,4 @@
 import "./contact.scss";
-
 export default function Contact() {
     return (
         <article className="contact">
@@ -10,12 +9,12 @@ export default function Contact() {
             </p>
             <div className="contact-details">
                 <div>
-                    <img src="src\assets\email.PNG" width={27} alt="Email" />{" "}
+                    <img src="/aarontam/email.PNG" width={27} alt="Email" />{" "}
                     <p>aarontam9529@gmail.com</p>
                 </div>
                 <div>
                     <img
-                        src="src\assets\linkedin.PNG"
+                        src="/aarontam\assets\linkedin.PNG"
                         width={27}
                         alt="Linkedin"
                     />
@@ -29,7 +28,11 @@ export default function Contact() {
                     </p>
                 </div>
                 <div>
-                    <img src="src\assets\github.PNG" width={27} alt="GitHub" />
+                    <img
+                        src="/aarontam\assets\github.PNG"
+                        width={27}
+                        alt="GitHub"
+                    />
                     <p>
                         <a href="https://www.github.com/tlkaaa" target="_blank">
                             github.com/tlkaaa ↗

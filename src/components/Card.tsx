@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from "react";
 import "./card.scss";
 
 export default function Card({ text }: { text: string }) {

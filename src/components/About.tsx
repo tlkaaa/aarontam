@@ -30,7 +30,7 @@ export default function About() {
                 </div>
                 <img
                     className="max-w-48 max-h-48 mt-6 md:mt-0"
-                    src="src/assets/personal_pic.png"
+                    src="public/assets/personal_pic.png"
                 />
             </div>
         </article>
