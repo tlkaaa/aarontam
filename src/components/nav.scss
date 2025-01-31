@@ -1,7 +1,7 @@
 nav {
-    @apply hidden md:fixed h-fit top-0 left-0 opacity-100 z-40 w-screen pt-6 pb-9 z-50 overflow-clip;
+    @apply hidden sm:flex fixed h-fit top-0 left-0 opacity-100 z-40 w-screen pt-6 pb-9 z-50 overflow-clip;
     @apply bg-[--nav-background];
-    @apply flex justify-between px-14;
+    @apply justify-between px-14;
     backdrop-filter: blur(5px);
     transition: all 0.2s 0.1s;
     animation: display 1s 1.5s backwards;

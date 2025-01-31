@@ -5,7 +5,7 @@ export default function Project() {
     return (
         <article>
             <h4 className="section-title" id="project">
-                My Project
+                My Projects
             </h4>
             <p className="text-lg">
                 <span className="highlight">Websites</span> I contributed in
@@ -39,7 +39,7 @@ export default function Project() {
                             <a
                                 href="https://www.australiathegift.com.au/"
                                 target="_blank"
-                                className="absolute bottom-0 text-cyan-600 hover:text-yellow-200"
+                                className="absolute bottom-2 lg:bottom-0 text-cyan-600 hover:text-yellow-200"
                             >
                                 See Live Website ↗
                             </a>
@@ -66,7 +66,7 @@ export default function Project() {
                             <a
                                 href="https://dreamfarm.com/"
                                 target="_blank"
-                                className="absolute bottom-0 text-cyan-600 hover:text-yellow-200"
+                                className="absolute bottom-2 lg:bottom-0 text-cyan-600 hover:text-yellow-200"
                             >
                                 See Live Website ↗
                             </a>
@@ -93,7 +93,7 @@ export default function Project() {
                             <a
                                 href="https://upaid.com.au/"
                                 target="_blank"
-                                className="absolute bottom-0 text-cyan-600 hover:text-yellow-200"
+                                className="absolute bottom-2 lg:bottom-0  text-cyan-600 hover:text-yellow-200"
                             >
                                 See Live Website ↗
                             </a>
@@ -110,15 +110,14 @@ export default function Project() {
                 <div className="projects">
                     <div className="details">
                         <h5>Maroon Logistics</h5>
-                        <p>*Currently at the final stage of development</p>
                         <Card text="A new website for Maroon Logistics, designed to showcase their affordable, reliable, and transparent shipping solutions. My primary role was to develop the majority of the site based on the client’s requirements, making design adjustments to ensure seamless integration of diverse content." />
                         <p className="techs">WordPress Tailwind PHP</p>
                         <p>
                             <a
-                                href=""
-                                className="absolute bottom-0 text-cyan-600 hover:text-yellow-200"
+                                href="https://maroonlgs.com/"
+                                className="absolute bottom-2 lg:bottom-0 text-cyan-600 hover:text-yellow-200"
                             >
-                                See Screenshots of The Website
+                                See Live Website ↗
                             </a>
                         </p>
                     </div>
@@ -146,7 +145,7 @@ export default function Project() {
                             <a
                                 href="https://lonepinekoalasanctuary.com/accessibility/"
                                 target="_blank"
-                                className="absolute bottom-0 text-cyan-600 hover:text-yellow-200"
+                                className="absolute bottom-2 lg:bottom-0 text-cyan-600 hover:text-yellow-200"
                             >
                                 See Live Website ↗
                             </a>
@@ -176,7 +175,7 @@ export default function Project() {
                             <a
                                 href="https://yourspaceoceania.com/containers/"
                                 target="_blank"
-                                className="absolute bottom-0 text-cyan-600 hover:text-yellow-200"
+                                className="absolute bottom-2 lg:bottom-0 text-cyan-600 hover:text-yellow-200"
                             >
                                 See Live Website ↗
                             </a>

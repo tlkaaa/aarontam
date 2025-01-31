@@ -1,6 +1,9 @@
+// import { useState } from "react";
 import "./nav.scss";
 
 export default function Nav() {
+    // const [navStaus, setNavStatus] = useState("hidden");
+
     return (
         <nav id="nav">
             <img
@@ -11,7 +14,7 @@ export default function Nav() {
                     window.scrollTo(0, 0);
                 }}
             />
-            <ul className="nav-items">
+            <ul className={`nav-items `}>
                 <li>
                     <a href="#about">About</a>
                 </li>
@@ -25,6 +28,20 @@ export default function Nav() {
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+            {/* <div
+                className="mobile-nav"
+                onClick={() => {
+                    if (navStaus === "hidden") {
+                        setNavStatus("block");
+                    } else {
+                        setNavStatus("hidden");
+                    }
+                }}
+            >
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> */}
         </nav>
     );
 }
